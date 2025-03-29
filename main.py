@@ -23,7 +23,7 @@ class Window(tkinter.Tk):
         entry.bind("<Return>", self.on_return)
         entry.pack()
 
-        question = ttk.Label(self, padding=20, font=("Arial", 20), foreground="red", wraplength=350)
+        question = ttk.Label(self, padding=20, font=("Arial", 15), foreground="red", wraplength=350)
         question.pack_forget()
         
         answer = ttk.Label(self, padding=20, font=("Arial", 20), foreground="green")
